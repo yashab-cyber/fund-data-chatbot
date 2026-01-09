@@ -1,0 +1,31 @@
+"""
+Backend Requirements
+====================
+Python dependencies for the Fund Data Chatbot API.
+
+Installation:
+    pip install -r requirements.txt
+
+For development:
+    pip install -r requirements.txt
+"""
+
+# Web Framework
+Flask==3.0.0
+Flask-CORS==4.0.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.2
+
+# LLM Providers
+openai==1.10.0
+anthropic==0.18.1
+google-generativeai==0.3.2
+
+# Utilities
+python-dotenv==1.0.0
+
+# Production Server (optional but recommended)
+gunicorn==21.2.0
+waitress==3.0.0

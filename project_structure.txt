@@ -1,0 +1,32 @@
+.
+├── README.md
+├── backend
+│   ├── app.py
+│   ├── data_processor.py
+│   ├── llm_providers.py
+│   ├── requirements.txt
+│   ├── setup.bat
+│   └── setup.sh
+├── docs
+│   ├── API.md
+│   ├── DEPLOYMENT.md
+│   ├── DEVELOPMENT.md
+│   └── QUICKSTART.md
+├── frontend
+│   ├── index.html
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── setup.bat
+│   ├── setup.sh
+│   ├── src
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   ├── main.jsx
+│   │   └── services
+│   ├── tailwind.config.js
+│   └── vite.config.js
+├── holdings.csv
+├── project_structure.txt
+└── trades.csv
+
+6 directories, 24 files
